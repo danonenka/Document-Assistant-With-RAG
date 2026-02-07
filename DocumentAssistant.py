@@ -14,7 +14,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 class DocumentAssistant:
 
-    def __init__(self, chunk_size=1000, overlap_size=300, top_k=3):
+    def __init__(self, chunk_size=900, overlap_size=200, top_k=4):
         self.chunk_size = chunk_size
         self.overlap_size = overlap_size
         self.top_k = top_k
